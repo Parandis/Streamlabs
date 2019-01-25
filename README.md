@@ -1,2 +1,0 @@
-# Streamlabs
-Landing Page
