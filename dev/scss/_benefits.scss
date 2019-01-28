@@ -2,27 +2,26 @@
     color:$fontColor;
     padding-right:45px;
     padding-left:45px;
-    h2{
-        margin-bottom:0;
-        overflow: hidden; 
-        border-right: .15em solid $fontColor; 
-        white-space: nowrap; 
-        margin: 0 auto; 
-        animation: 
-          typing 3.5s steps(40, end),
-          blink-caret .75s step-end infinite;
-          
-            @keyframes typing {
-                from { width: 0 }
-                to { width: 100% }
-            }
-            
-            @keyframes blink-caret {
-                from, to { border-color: transparent }
-                50% { border-color: $fontColor; }
-            }
-    }
     .text{
+        h2{
+            margin-bottom:0;
+            overflow: hidden; 
+            border-right: .15em solid $fontColor; 
+            white-space: nowrap; 
+            animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+            
+                @keyframes typing {
+                    from { width: 0 }
+                    to { width: 50% }
+                }
+                
+                @keyframes blink-caret {
+                    from, to { border-color: transparent }
+                    50% { border-color: $fontColor; }
+                }
+        }
         p{
             margin-top:0;
         }
@@ -31,12 +30,24 @@
         .youtube{
             margin-left:4.5% !important;
             width:1170px !important;
+            h2{
+                width:55%;
+            }
         }
         #circle{
             margin-left:50%;
         }
     }
-
+    .favorite{
+        h2{
+            width:51%;
+        }
+    }
+    .share{
+        h2{
+            width:56%;
+        }
+    }
     .youtube,
     .favorite,
     .share{
