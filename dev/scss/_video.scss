@@ -1,0 +1,23 @@
+.video{
+    margin-top:-65px;
+    .video-content{
+        background-color: $textBgColor;
+        color:$fontColor;
+        height:55px;
+        margin-bottom: 0;
+        text-align: center;
+        font-weight: 500;
+        font-size:14px;
+        color:$videoTxt;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .video-container{
+        background-color: $videoColor;
+        text-align: center;
+        iframe{
+            margin-bottom:-7px;
+        }
+    }
+    
+}

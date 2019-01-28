@@ -16,5 +16,12 @@ $fontBody: 'Poppins', sans-serif;
 
 body{
     font-family: $fontBody;
+    background-image: $backgroundGradient;
+    margin:0;
+}
+html{
     background-image: url(/images/background.svg);
+    width:100%;
+    background-repeat: no-repeat;
+    height:50%; 
 }

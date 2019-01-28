@@ -1,0 +1,32 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    #logo{
+        width:60px;
+        height:auto;
+        margin-top:32px;
+        margin-left:42px;
+    }
+    #mobile-menu{
+        display:none;
+    }
+    nav{
+        justify-content: space-between;
+        width:350px;
+        font-size:14px;
+        margin-top:32px;
+        margin-right:20px;
+        
+        a{
+            list-style-type: none;
+            color:$fontColor;
+            text-decoration: none;
+            padding:3%;
+            &:hover{
+                background-color: $bgColor;
+                border-radius:8px;
+            }
+        }
+        
+    }
+}

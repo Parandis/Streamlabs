@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Streamlabs</title>
-	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<!-- build:css styles/styles.min.css -->
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/styles.css">
 	<!-- endbuild -->
 </head>
 
@@ -20,39 +20,151 @@
 
         <div>
             <nav>
-                <a href="#" title="Coming Soon">About</a>
-                <a href="#" title="Coming Soon">Services</a>
-                <a href="#" title="Coming Soon">Contact</a>
-                <a href="#" title="Coming Soon">Login</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">Login</a>
             </nav>
         </div>
     </header>
 
     <main>
         <div class="register">
-            
+            <div class="content">Discover & share the best content on the web</div>
+            <div class="register-section">
+                <form action="">
+                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Password">
+                    <input type="checkbox" id="subscribe" checked>
+                    <label for="subscribe">Subscribe to our weekly newsletter for free virtual gifts</label>
+                    <input type="submit" value="Register Now">
+
+                </form>
+            </div>
 
         </div>
 
-        <div class="benefits"></div>
+        <div class="benefits">
 
-        <div class="video"></div>
+            <div class="benefit1">
+                <div class="pre-box">
+                    <p class="num">1</p>
+                    <img id="circle" src="images/circle.svg" alt="circle">
+                </div>
 
-        <div class="press"></div>
+                <div class="youtube">
+                    <img id="video" src="images/video.svg" alt="video">
+                    <div class="text">
+                    <h2>Watch your favorite videos all from one place</h2>
+                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+                    </div>
+                </div>
+            </div>
 
-        <div class="cta-bar"></div>
+            <div class="benefit2">
+                <div class="pre-box">
+                    <p class="num">2</p>
+                    <img id="circle" src="images/circle.svg" alt="circle">
+                </div>
+                <div class="favorite">
+                    <img id="like" src="images/like.svg" alt="like">
+                    
+                    <div class="text">
+                    <h2>Upvote your favorite to save them for later</h2>
+                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefit3">
+                <div class="pre-box">
+                    <p class="num">3</p>
+                    <img id="circle" src="images/circle.svg" alt="circle">
+                </div>
+                <div class="share">
+                    <img id="share" src="images/share.svg" alt="share"> 
+                    <div class="text">
+                    <h2>share the best moments with your best friends</h2>
+                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+                    </div>  
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="video">
+            <div class="video-content">
+                <p>“My friends and I are obsessed with this app. We send funny vids to each other all day long!” - DotaStream3r86</p>
+            </div>
+            <div class="video-container">
+                    <iframe width="1000" height="560" src="https://www.youtube.com/embed/iGpuQ0ioPrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+        <div class="press">
+            <h2>In The Press</h2>
+            <div class="news">
+
+            <div class="box-1">
+                <div class="header">
+                    <img id="tech" src="images/tech.svg" alt="TechCrunch">
+                </div>
+                
+                <div class="press-news">
+                    <h3>Techcrunch</h3>
+                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <div class="header">
+                    <img id="verge" src="images/verge.svg" alt="the Verge">
+                </div>
+                <div class="press-news">
+                    <h3>The Verge</h3>
+                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+
+            <div class="box-3">
+                <div class="header">
+                    <img id="wired" src="images/wired.svg" alt="Wired">
+                </div>
+                
+                <div class="press-news">
+                    <h3>Wired</h3>
+                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+
+            </div>
+            <div class="numbers">
+                <p>1,540,337 users</p>
+                <p>1,962,879,337 vids</p>
+            </div>
+        </div>
+
+        <div class="cta-bar">
+            <button>Register Now</button>
+        </div>
 
     </main>
 
 
     <footer>
         <nav>
-            <a href="#" title="Coming Soon">Careers</a>
-            <a href="#" title="Coming Soon">FAQ</a>
-            <a href="#" title="Coming Soon">Contact</a>
+            <a href="#">Careers</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
             <p>All Rights Reserved</p>
         </nav>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
